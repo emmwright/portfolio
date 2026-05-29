@@ -57,10 +57,11 @@ body.dark-mode {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    .header-text,
-    .profile-pic {
-    transform: translateY(-150px);
 }
+
+.header-text,
+.profile-pic {
+    transform: translateY(-150px);
 }
 
 .header-text h1 {
@@ -347,14 +348,14 @@ body.dark-mode #contact a:hover {
     border-bottom-color: var(--green-dark);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     body {
-        padding: 20px;
+        padding: 18px;
     }
 
     .site-header {
         min-height: auto;
-        margin: 40px auto 45px auto;
+        margin: 35px auto 35px auto;
         flex-direction: column-reverse;
         align-items: flex-start;
         justify-content: flex-start;
@@ -385,7 +386,7 @@ body.dark-mode #contact a:hover {
     }
 
     nav {
-        margin: 0 auto 70px auto;
+        margin: 0 auto 55px auto;
         border-radius: 24px;
         padding: 10px;
     }
@@ -419,8 +420,8 @@ body.dark-mode #contact a:hover {
     }
 
     .theme-switcher {
-        right: 14px;
-        bottom: 14px;
+        right: 12px;
+        bottom: 12px;
     }
 
     .theme-options button {
@@ -429,13 +430,22 @@ body.dark-mode #contact a:hover {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
     body {
-        padding: 16px;
+        padding: 15px;
+    }
+
+    .site-header {
+        margin-top: 25px;
+        margin-bottom: 35px;
     }
 
     .header-text h1 {
-        font-size: 3.2rem;
+        font-size: 3.1rem;
+    }
+
+    .tagline {
+        font-size: 0.9rem;
     }
 
     .profile-pic {
@@ -449,10 +459,15 @@ body.dark-mode #contact a:hover {
 
     nav {
         border-radius: 22px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     section {
-        padding: 20px;
+        padding: 19px;
+    }
+
+    .theme-switcher {
+        transform: scale(0.9);
+        transform-origin: bottom right;
     }
 }
