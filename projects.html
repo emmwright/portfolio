@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Wright - Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Projects by Emma Wright">
+    <meta name="keywords" content="Emma Wright, Projects, Software Engineering, Web Development, Computer Science">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header class="projects-header">
+        <h1>Projects</h1>
+        <p class="tagline">A selection of software development, coursework, and group projects.</p>
+    </header>
+
+    <nav class="projects-nav">
+        <ul class="navlist project-nav">
+            <li><a href="index.html">Back to Home</a></li>
+        </ul>
+    </nav>
+
+    <main class="projects-main">
+        <section class="project-card">
+            <h2>AI Life Student Planner</h2>
+            <p class="project-role">Role: Frontend Lead</p>
+
+            <p>
+                AI Life Student Planner is a student-focused planning website designed to help users organise
+                academic goals, keep on track of their schedule, manage internships, and reflect on their week.
+                This project gave me experience working on a larger web application with multiple pages,
+                user-focused design, and features built around real student needs.
+            </p>
+
+            <p>
+                As the frontend lead, I helped create the shared structure for the project by building the original
+                HTML and CSS outlines for the frontend pages. I completed the frontend for the schedule page and
+                weekly reflection page, contributed to the dashboard, and helped standardise the styling across
+                pages so the site felt consistent and easy to use.
+            </p>
+
+            <p>
+                I also reviewed and adjusted other team members' pages by fixing bugs I found, improving page
+                structure, and helping keep the frontend consistent across the project. Alongside the technical
+                work, I helped organise frontend tasks, answer team members' questions, completed a GitHub peer
+                review, and resolved merge conflicts.
+            </p>
+
+            <h3>Technologies & Concepts</h3>
+            <p>
+                HTML, CSS, JavaScript, responsive design, UI design, frontend leadership, GitHub collaboration,
+                merge conflict resolution, teamwork, and web application planning.
+            </p>
+
+            <div class="project-screenshots">
+                <img src="images/ai-life-1.png" alt="AI Life Student Planner screenshot 1">
+                <img src="images/ai-life-2.png" alt="AI Life Student Planner screenshot 2">
+                <img src="images/ai-life-3.png" alt="AI Life Student Planner screenshot 3">
+            </div>
+        </section>
+
+        <section class="project-card">
+            <h2>PantryPal</h2>
+            <p class="project-role">Role: Frontend Design & Layout</p>
+
+            <p>
+                PantryPal is a full-stack recipe web application created as a group project. The app allows
+                users to browse recipes, search and filter results, create an account, and manage their own
+                recipe posts. The project focused on building a useful, responsive application with both
+                front-end and back-end functionality.
+            </p>
+
+            <p>
+                My role focused on frontend design and layout. I designed responsive HTML and CSS layouts for the
+                application pages, created a consistent design system with typography and colours, built recipe
+                cards and detailed view templates, and designed the visual system for dietary restriction tags.
+            </p>
+
+            <p>
+                I also worked on making the interface mobile-friendly, organised, and easy to navigate so users
+                could browse, filter, and view recipes clearly across different screen sizes.
+            </p>
+
+            <h3>Technologies & Concepts</h3>
+            <p>
+                HTML, CSS, JavaScript, Node.js, Express, EJS templates, MongoDB, responsive design,
+                authentication, CRUD functionality, and teamwork.
+            </p>
+
+            <div class="project-screenshots">
+                <img src="images/pantrypal-1.png" alt="PantryPal screenshot 1">
+                <img src="images/pantrypal-2.png" alt="PantryPal screenshot 2">
+                <img src="images/pantrypal-3.png" alt="PantryPal screenshot 3">
+            </div>
+        </section>
+
+        <section class="project-card">
+            <h2>Linux Device Driver: Caesar Cipher</h2>
+            <p class="project-role">Operating Systems Coursework</p>
+
+            <p>
+                Built a Linux device driver in C that implements a Caesar cipher. The user program sends
+                a message to the driver, sets a shift key, chooses encrypt or decrypt mode using ioctl,
+                writes data to the device, and reads the processed result back.
+            </p>
+
+            <p>
+                The driver supports open, release, read, write, and ioctl operations, and uses kernel log
+                messages to track when the module is loaded, used, and unloaded.
+            </p>
+
+            <h3>Technologies & Concepts</h3>
+            <p>
+                C, Linux, kernel modules, device drivers, ioctl, read/write operations, misc devices,
+                user-kernel communication, Makefiles, and debugging.
+            </p>
+        </section>
+
+        <section class="project-card">
+            <h2>Instagram340</h2>
+            <p class="project-role">Object-Oriented Programming Coursework</p>
+
+            <p>
+                Built an Instagram-inspired C++ application as an individual coursework project.
+                The project used object-oriented programming concepts to model users, posts,
+                reels, and stories, with separate classes and files for each major component.
+            </p>
+
+            <p>
+                This project helped strengthen my understanding of C++ class design, inheritance,
+                file organisation, and building a program with multiple interacting objects.
+            </p>
+
+            <h3>Technologies & Concepts</h3>
+            <p>
+                C++, object-oriented programming, classes, inheritance, polymorphism, file organisation,
+                user interaction, and software design.
+            </p>
+        </section>
+
+        <nav class="projects-nav bottom-projects-nav">
+            <ul class="navlist project-nav">
+                <li><a href="index.html">Back to Home</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Emma Wright &bull; All rights reserved</p>
+    </footer>
+
+    <div class="image-lightbox" id="imageLightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+
+    <img id="lightboxImage" src="" alt="Expanded project screenshot">
+
+    <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
